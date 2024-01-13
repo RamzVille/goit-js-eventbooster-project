@@ -22,7 +22,7 @@
      content: '';
      position: relative;
      border-radius: 20%;
-     animation-duration: 1.8s;
+     animation-duration: 5.8s;
      animation-iteration-count: infinite;
      animation-timing-function: ease-in-out;
    }
@@ -107,12 +107,12 @@
 
 .circle {
   &-html {
-    animation: anim_circle-html 3s ease-in-out forwards;
+    animation: anim_circle-html 5s ease-in-out forwards;
   }
 }
 
 @keyframes anim_circle-html {
   to {
-    stroke-dashoffset: strokeDashoffset(100);
+    stroke-dashoffset: strokeDashoffset(1000);
   }
 }

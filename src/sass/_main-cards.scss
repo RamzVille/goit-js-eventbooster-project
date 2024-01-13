@@ -34,6 +34,7 @@
   align-items: center;
   width: 280px;
   row-gap: 32px;
+  margin: 0 20px;
   // background-color: rgb(0, 255, 55);
   z-index: 10;
 
@@ -139,6 +140,7 @@
   .main-cards {
     width: 704px;
     row-gap: 52px;
+    margin: 0 32px;
   }
   .main-cards-item {
     width: 152px;
@@ -184,6 +186,7 @@
   .main-cards {
     width: 1248px;
     row-gap: 40px;
+    margin:0 16px;
   }
   .main-cards-item {
     width: 288px;
