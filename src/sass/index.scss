@@ -1,2 +1,10 @@
 @import './common';
-@import './example';
+@import './utils/variables';
+@import './header';
+@import './main-cards';
+// @import './layout/footer';
+@import './components/pagination';
+@import './loader';
+// @import './components/modal-team';
+@import './spinner';
+@import './main-cards-modal';
