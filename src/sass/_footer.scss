@@ -217,9 +217,14 @@ a {
 
 .team__item:hover {
   transform: scale(1.03);
+  background-color:var(--light-color);
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.3),
     0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 10px 12px -6px rgba(0, 0, 0, 0.4);
-}
+.team__image {
+    box-shadow: -35px -10px 35px -25px var(--loader-ring);
+  }
+
+  }
 
 
 .team__image {

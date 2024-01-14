@@ -18,11 +18,11 @@
   height: 952px;
   
   border-radius: 150px 0px;
-  overflow-y: auto;
+  overflow: auto;
   position:absolute;
   z-index: 30;
   box-sizing: border-box;
-  overflow-y: scroll;
+
     -ms-overflow-style: none;
     /* for Internet Explorer, Edge */
     scrollbar-width: none;
@@ -80,7 +80,7 @@
 .main-card-modal-close:before {
   content: '\2715';
   color: var(--modal-close);
-  font-size: $high-size;
+  font-size: 25px;
  
 }
 .main-card-modal-close:hover::before,
@@ -95,8 +95,8 @@ cursor: pointer;
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: $accent-color;
-  color: $bg-overlay;
+  background-color: var(--accent-color);
+  color: var(--bg-overlay);
   border-radius: 0.25rem;
   border-style: none;
   border-width: 0;
@@ -123,8 +123,8 @@ cursor: pointer;
 }
 
 .modal__btn-primary {
-  background-color: $second-color;
-  color: $accent-color;
+  background-color: var(--second-color);
+  color: var(--accent-color);
 }
 
 .main-card-modal {
@@ -354,10 +354,10 @@ cursor: pointer;
   }
   &__btn1 {
     display: inline-block;
-    background-color: $main-color;
-    color: $accent-color;
+    background-color: var(--main-color);
+    color: var(--accent-color);
     padding-top: 10px;
-    border: 1px solid $main-color;
+    border: 1px solid var(--main-color);
     padding-bottom: 10px;
     padding-left: 19px;
     padding-right: 19px;
@@ -369,8 +369,8 @@ cursor: pointer;
     transition: 0.5s ease-in-out;
     &:hover,
     &:focus {
-      background-color: $accent-color;
-      color: $main-color;
+      background-color: var(--accent-color);
+      color: var(--main-color);
     }
   }
   &__info {
@@ -380,16 +380,16 @@ cursor: pointer;
       width: 10px;
     }
     &::-webkit-scrollbar-thumb {
-      background-color: $main-color;
+      background-color: var(--main-color);
       border-radius: 10px;
       height: 50px;
     }
   }
   &__btn2 {
     display: inline-block;
-    background-color: $bg-color;
-    color: $main-color;
-    border: 1px $main-color solid;
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    border: 1px var(--main-color) solid;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 3px;
@@ -399,8 +399,8 @@ cursor: pointer;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     &:hover {
-      color: $bg-color;
-      background: $main-color;
+      color: var(--bg-color);
+      background: var(--main-color);
     }
   }
   &__single_price {
